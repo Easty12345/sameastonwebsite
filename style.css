@@ -1,68 +1,32 @@
 body {
-    background: red;
-    color: red;
-    font-family: "Comic Sans MS";
+    background: #D7D6D6;
+    color: #5D5E60;
+}
+
+#navBar {
+    background: black;
+    display: inline-flex;
+    list-style: none;
+}
+
+#navBar li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#container {
+    background: #36413E;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 1000px;
 }
 
 header {
-    background-color: green;
     text-align: center;
-    color: rgb(229, 255, 0);
     font-size: 100px;
 }
 
 h1 {
     font-size: 50px;
     text-align: center;
-    background-color: green;
 }
-
-p1 {
-    font-size: 15px;
-    text-align: center;
-}
-
-#content {
-    position: relative;
-
-}
-
-#box1, #box2 {
-    background-color: green;
-    width: 20%
-}
-
-#box1 {
-    position: relative;
-    float: left;
-    left: 20px;
-}
-
-#box2 {
-    position: relative;
-    float: right;
-}
-
-#box1 ul {
-    text-align: center;
-    color: yellow;
-    list-style-type: none;
-}
-
-.crabbutton {
-    background-color: red;
-    font-family: "Comic Sans MS";
-    font-size: 30px;
-    color: yellow;
-}
-
-.crabimage {
-    display: none
-}
-
-.show {
-    display: inline;
-    position: relative;
-    left: 350px;
-}
-
